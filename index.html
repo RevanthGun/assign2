@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment</title>
+</head>
+<body>
+    <div class="tasks-container">
+        <div class="task">
+            <h2>Reverse a String</h2>
+            <div>
+                <label for="stringInput">Enter a string:</label>
+                <input type="text" id="str">
+                <button onclick="reverseString()">Submit</button>
+                <p id="revstr"></p>
+            </div>
+        </div>
+
+        <div class="task">
+            <h2>Palindrome Checker</h2>
+            <div>
+                <label for="numberInput">Enter a number :</label>
+                <input type="text" id="num">
+                <button onclick="checkPalindrome()">Submit</button>
+                <p id="result"></p>
+            </div>
+        </div>
+
+        <div class="task">
+            <h2>Tip Calculator</h2>
+            <div>
+                <label for="subtotalInput">Subtotal:</label>
+                <input type="number" id="totalInput">
+                <label for="tipInput">Tip (%):</label>
+                <input type="number" id="tipInput">
+                <button onclick="calculateTotal()">Submit</button>
+                <p id="totalAmount"></p>
+            </div>
+        </div>  
+    </div>
+   <!-- Javascript File  -->
+    <script src="app.js"></script>
+</body>
+</html>
